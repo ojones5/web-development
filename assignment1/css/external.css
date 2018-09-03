@@ -1,5 +1,6 @@
 body {
 background-image: url("../images/field.jpg");
+color: white;
 }
 
 a {
@@ -8,10 +9,44 @@ a {
 
 img{
     
-    border-radius: 8px;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     height: 200px;
+}
+
+
+#headerh1,#name {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+#favorite-books {
+    position: relative;
+    left: 60px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#interests{
+    text-align: center;
+    
+}
+
+#favorite-books{
+    text-align: left;    
+}
+
+
+td {
+    text-align: left;
 }

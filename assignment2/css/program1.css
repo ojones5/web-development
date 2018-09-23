@@ -1,0 +1,96 @@
+.program1-body {
+    background-image: url("../images/fall.jpg");
+    text-align:center;
+    color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1024px;
+    }
+    
+.program1-a {
+        color: black;
+        background-color:yellow;
+        border:1px;
+        margin:0px;
+        text-decoration: none;
+  }
+
+  
+
+.recipe-body {
+    font-family: Georgia, Garamond, serif;
+    background-color: #FFCC00;
+    color:#000000;
+}
+
+
+.headings-caption {
+    font-family: Century Gothic, Futura, Verdana, sans-serif;
+    background-color: #F0F0F0;
+    color:#A4A400;
+}
+
+caption {
+    font-weight: bold;
+    
+}
+
+.headings-h1h2 {
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.headings-other {
+    text-align: left;
+}
+    
+.header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#css-link {
+    text-align: center;
+}
+
+blockquote{
+    text-align: center;
+}
+
+table {
+    background-color: #CC9933;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border: #FFFFFF;
+}
+
+th {
+    padding: 5px;
+    background-color:  #003366;
+    color: #FFFFFF;
+    border: 2px white solid;
+}
+
+td {
+    border: 2px white solid;
+    padding:5px
+}
+ 
+.trailer {
+    background-color:darkblue;
+}
+
+ul,ol {
+    list-style-image: url('../images/note.png');
+}

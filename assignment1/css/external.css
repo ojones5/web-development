@@ -1,11 +1,9 @@
 body {
-background-image: url("../images/field.jpg");
+background-image: url("../images/images.jpg");
 color: white;
+font-family: sans-serif;
 }
 
-a {
-    color: white;
-}
 
 img{
     
@@ -17,17 +15,27 @@ img{
     height: 200px;
 }
 
+a {
+    color:white;
+}
 
-#headerh1,#name {
+table,td,th {
+   
+    align-content:center;
+    border:0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
     
+}
+    
+
+
+#headerh1,#name { 
     padding: 20px;
     text-align: center;
 }
 
-#favorite-books {
-    position: relative;
-    left: 60px;
-}
 
 .footer {
     position: fixed;
@@ -37,16 +45,42 @@ img{
     text-align: center;
 }
 
-#interests{
+#interests,#favorite-books{
     text-align: center;
     
 }
 
-#favorite-books{
-    text-align: left;    
+
+.gsu_red {
+    color:red;
+    font-weight: bold;
 }
 
+a:hover {
+    background-color: lightgreen;
+}
 
-td {
-    text-align: left;
+#two {
+    background-color:pink;
+    text-align: center;
+}
+
+#three{
+    background-color:wheat;   
+    align-content:center;
+}
+
+#four {
+    background-color:goldenrod;
+    text-align: center;
+}
+
+#five {
+    background-color:blueviolet;
+    text-align: center;
+}
+
+#six {
+    background-color:red;
+    text-align: center;
 }

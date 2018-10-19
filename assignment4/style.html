@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   <head>
+      <title>Form Styles</title>
+      <meta charset = "utf-8" />
+      <meta name="keywords" content="homework, school projects, assignments, projects"/> 
+      <link href="css/style.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      
+         <h2>Form Styles</h2>
+        
+        <div>
+         <form method="get" action="formValidate.php"  >
+            <div>
+               <table>
+               <tr>
+               <th>Font Colors</th>
+               <td><input type="radio" name="color" value="Blue" checked="checked" >Blue</td>
+               <td><input type="radio" name="color" value="red">Red</td>
+               <td><input type="radio" name="color" value="purple"/>Purple</td> 
+               <td><input type="radio" name="color" value="silver"/>Silver</td> 
+               </tr>
+               </table>
+            </div>
+            <br/>
+            <div >
+            <label>Font Family</label>
+               <select name="font-family">
+               <option value="times">Times Roman</option>
+               <option value="courier">Courier New </option>
+               <option value="arial">Arial</option>               
+               </select>
+            </div>
+            <br/>
+            <div>
+            <table>
+               <tr>
+               <th>Font Size</th>
+               <td><input type="radio" name="size" value="2" >2</td>
+               <td><input type="radio" name="size" value="14" checked="checked">14</td>
+               <td><input type="radio" name="size" value="25"/>25</td> 
+               <td><input type="radio" name="size" value="40"/>40</td> 
+               </tr>
+               </table>
+            </div>
+              <br/>
+              
+              <div>
+                <textarea rows="4" cols="50" name="text"  placeholder="Enter Text" required>
+
+                </textarea>
+
+              </div>
+            <div>
+               <label></label>
+               <button type="submit">Submit form</button>
+            </div>
+            
+           
+         </form>
+         
+      </div>
+
+
+   </body>
+</html>

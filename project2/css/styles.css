@@ -1,0 +1,78 @@
+.open-chest{
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.closed-chest{
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+    background: url(briefcase.png);
+    width: 75px;
+    height: 106px;
+    text-align: center;
+    border: 0px;
+}
+
+.selected-chest{
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+    background: url(briefcase.png);
+    width: 75px;
+    height: 106px;
+    text-align: center;
+    border: 0px;
+    background-color: blue;
+}
+
+#loginbody {
+background-image: url(dealnodeal1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#label {
+    color:white;   
+}
+
+.entry {
+    position:relative;
+    top:440px;
+    left:500px;    
+}
+
+
+.btn {
+  background-color: gold;
+  border: none;
+  color: black;
+  padding: 12px 8px;
+  text-align: center;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+#password {
+    
+    position: relative;
+    left:12px;
+}
+
+.btn:hover {
+  background-color: #ffcc00;
+  color: white;
+}
+
+#bmov {
+    position:relative;
+    left: 125px;
+    top: 20px;
+}

@@ -1,0 +1,57 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-color:#7BA3BE;
+    font-family:verdana;
+    font-size:12px;
+}
+
+h2
+{
+    font:18pt verdana;
+    margin-left:10px;
+}
+
+#event_table
+{
+    border-collapse:collapse;
+    border-top:5px;
+    margin:5px 10px 10px;
+}
+
+th
+{
+    color:#000;
+    font-size:14px;
+    font-weight:400;
+    padding-left:5px;
+    text-align:left;
+    text-decoration:none;
+    width:220px;
+    border:3px solid black;
+}
+
+.even_row
+{
+    background-color:#86cefd;
+    height:40px;
+}
+
+.odd_row
+{
+    background-color:#BCE4FE;
+    height:40px;
+}
+
+td
+{
+    text-align:center;
+    width:60px;
+    border:3px solid black;
+}
+
